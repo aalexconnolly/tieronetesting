@@ -1,0 +1,29 @@
+<svg width="123" height="123" viewBox="0 0 123 123" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="61.2258" cy="61.2258" r="59.7258" stroke="#A6915C" stroke-width="3"/>
+<path d="M12.5 61C12.5 34.2142 34.2142 12.5 61 12.5C87.7858 12.5 109.5 34.2142 109.5 61C109.5 76.6312 102.107 90.5353 90.6205 99.4071C81.9268 94.3807 71.8022 91.5 61 91.5C50.1978 91.5 40.0732 94.3808 31.3795 99.4072C19.8932 90.5353 12.5 76.6312 12.5 61Z" stroke="#A6915C" stroke-width="3"/>
+<path d="M12 56H57.5M110 56H64.5M110 66H64.5M12 66H57.5" stroke="#A6915C" stroke-width="3"/>
+<path d="M16.5394 91.3785L9.14913 86.9319L109.394 29.0557L110.152 37.3311L16.5394 91.3785Z" fill="white" stroke="#A6915C" stroke-width="3"/>
+<path d="M56 12L56 56M66 12L66 56M56 66L56 92M66 66L66 92" stroke="#A6915C" stroke-width="3"/>
+<rect x="52.5" y="52.5" width="17" height="17" rx="8.5" fill="white" stroke="#A6915C" stroke-width="3"/>
+<rect x="57.5" y="57.5" width="7" height="7" rx="3.5" fill="white" stroke="#A6915C" stroke-width="3"/>
+<path d="M2 61L7 61" stroke="#A6915C" stroke-width="3"/>
+<path d="M9.9043 31.5L14.2344 34" stroke="#A6915C" stroke-width="3"/>
+<path d="M4.01074 76.2705L8.84037 74.9764" stroke="#A6915C" stroke-width="3"/>
+<path d="M45.7295 117.989L47.0236 113.16" stroke="#A6915C" stroke-width="3"/>
+<path d="M19.2808 19.2803L22.8163 22.8158" stroke="#A6915C" stroke-width="3"/>
+<path d="M19.2808 102.72L22.8163 99.1842" stroke="#A6915C" stroke-width="3"/>
+<path d="M31.5 9.9043L34 14.2344" stroke="#A6915C" stroke-width="3"/>
+<path d="M90.5 9.9043L88 14.2344" stroke="#A6915C" stroke-width="3"/>
+<path d="M117.99 76.2705L113.16 74.9764" stroke="#A6915C" stroke-width="3"/>
+<path d="M115 61L120 61" stroke="#A6915C" stroke-width="3"/>
+<path d="M107.765 88L112.095 90.5" stroke="#A6915C" stroke-width="3"/>
+<path d="M113.16 47.0234L117.99 45.7293" stroke="#A6915C" stroke-width="3"/>
+<path d="M99.1836 99.1836L102.719 102.719" stroke="#A6915C" stroke-width="3"/>
+<path d="M99.1836 22.8164L102.719 19.2809" stroke="#A6915C" stroke-width="3"/>
+<path d="M61 115L61 120" stroke="#A6915C" stroke-width="3"/>
+<path d="M88 107.766L90.5 112.096" stroke="#A6915C" stroke-width="3"/>
+<path d="M34 107.766L31.5 112.096" stroke="#A6915C" stroke-width="3"/>
+<path d="M74.9761 113.16L76.2702 117.99" stroke="#A6915C" stroke-width="3"/>
+<path d="M8.83984 47.0234L4.01021 45.7293" stroke="#A6915C" stroke-width="3"/>
+<path d="M46 4C49.5349 8.85786 55.1621 12 61.5 12C67.8379 12 73.4651 8.85786 77 4" stroke="#A6915C" stroke-width="3"/>
+</svg>
