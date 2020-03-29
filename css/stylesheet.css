@@ -631,6 +631,7 @@ dot {
   display: inline-block;
   transition: 0.6s ease;
  border: 3px solid white;
+     opacity: 1;
 }
 .active, #dot:hover {
   background-color: transparent;
@@ -1463,11 +1464,105 @@ box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
     z-index: 96;
     transition: .5s ease;
 }
-}
+
 }
 
 
 @media only screen and (max-width: 400px){
+    .typeslide{
+    margin-top: -250px;
+    z-index: 2;
+    width: 580px;
+    margin-left: 40px;
+    overflow: none;
+}
+.latest{
+    border-radius: 4px;
+    border: .5px solid white;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -100px;
+    margin-left: -570px;
+    z-index: 96;
+    transition: .5s ease;
+    font-size: 14px;
+}
+    
+       #slideshowback{
+    height: 300px;
+    overflow: hidden !important; 
+    width: 104vw;
+           padding-top: 10px;
+}
+.slide-pic{
+    width: 600px;
+    margin-left: -100px;
+}
+   
+.active, .dot:hover {
+  background-color: transparent!important;
+}
+#dot:active {
+  background-color: transparent;
+}
+#dot {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease;
+ border: 1px solid white;
+    opacity: 1;
+}
+.active, #dot:hover {
+  background-color: transparent;
+}
+    
+    
+ .recentlink {
+  border-radius: 4px;
+  border: .5px solid #A6915C;
+  padding-top: 8px;
+  padding-bottom: 8px; 
+    padding-left:15px;
+    padding-right: 15px;
+  font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.gallerylink {
+  padding-top: 8px;
+  padding-bottom: 8px; 
+    padding-left:35px;
+    padding-right: 35px;
+  font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}   
+    
+    
+    
+#peoplecontainer2{
+    width: 100%;
+
+}
+    .burger-nav{
+        overflow: none;
+   background-color:  #FAFAFA;
+box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
+    padding-top: 12px;
+    width: 108vw;
+    margin-left: -5vw;
+    margin-right: -3vw;
+    padding-right: 6vw;
+        padding-left: 45vw;
+        position: fixed;
+        padding-bottom: 7px;
+    }
      .burger-nav{
         padding-left: 38vw;
     }
@@ -1481,5 +1576,44 @@ box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
 }
          h1{
     font-size: 36px;
+}
+        #peoplecontainer{
+    width: 100%;
+}
+    .big-avatar-box{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+ .avatar {
+  border-radius: 50%;
+           width: 78px; 
+}
+.avatarimg{ 
+    float: left;
+}
+.avatarbox{
+    width: 315px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 8px;
+}
+.avatartext{
+   width: 204px; 
+   float: left;
+    padding-left: 10px;
+}
+.title{
+    margin-bottom: 0px;
+}
+.subhead{
+    padding-bottom: 15px;
+}
+.subhead2{
+    padding-bottom: 0px;
+    line-height: 20px !important;
 }
 }
