@@ -397,6 +397,15 @@ box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
     padding-left: 10px;
     padding-right: 10px;
 }
+.event-box{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: .5px solid #E5E5E5;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 #gallery{
     width: 90vw;
@@ -854,6 +863,11 @@ h5{
     font-size: 36px;
     margin-bottom: -5px;
 }
+h6{
+   font-family: RotisSemiSerifPro-Regular;
+    color: black;
+    font-size: 70px;
+}
 p{
     font-family: 'Roboto', sans-serif;
     color: #7E7E7E;
@@ -877,6 +891,14 @@ p2{
     font-weight: 600;
     color:#A6915C; 
 }
+.boldgold:hover{
+    text-decoration: none;
+    color: black;
+}
+.gold{
+  color:#A6915C;   
+}
+
 
 /*////////////////////TYPE////////////////////*/
 
@@ -1136,6 +1158,11 @@ p2{
     h3{
     font-size: 44px;
 }
+    h6{
+   font-family: RotisSemiSerifPro-Regular;
+    color: black;
+    font-size: 50px;
+}
     .para1{
     max-width: 320px;
 }
@@ -1218,6 +1245,11 @@ h2{
     font-size: 14px;
 }
 h3{
+    font-size: 36px;
+}
+        h6{
+   font-family: RotisSemiSerifPro-Regular;
+    color: black;
     font-size: 36px;
 }
 h4{
@@ -1468,7 +1500,7 @@ box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
 }
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
     .typeslide{
     margin-top: -250px;
     z-index: 2;
@@ -1491,7 +1523,7 @@ box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
     font-size: 14px;
 }
     
-       #slideshowback{
+#slideshowback{
     height: 300px;
     overflow: hidden !important; 
     width: 104vw;
@@ -1615,5 +1647,11 @@ box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
 .subhead2{
     padding-bottom: 0px;
     line-height: 20px !important;
-}
+} 
+    body{
+        width: 100vw;
+      overflow-x: none !important;
+        overflow-y: auto;
+
+    }   
 }
