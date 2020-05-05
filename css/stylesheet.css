@@ -885,7 +885,16 @@ dot {
    text-decoration: none;
     color: #A6915C; 
 }
-
+.footerlink2{
+   font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #A6915C; 
+}
+.footerlink2:hover{
+   text-decoration: none;
+    color: white;
+}
 
 
 /*/////////////////////FOOTER/////////////////////*/
@@ -1330,6 +1339,9 @@ p2{
    font-size: 14px; 
 }
     .footerlink{
+        font-size: 14px;
+    }
+     .footerlink2{
         font-size: 14px;
     }
     .typeslide{
