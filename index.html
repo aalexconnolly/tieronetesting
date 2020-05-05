@@ -145,6 +145,7 @@
         
         
         
+        
         <div class="container-fluid scene_element scene_element--fadein" >
           
             
@@ -211,6 +212,7 @@
             <div class="latest">
             <a href="news.html#section1" class="white link"> Latest Event</a>
         </div>
+            
         </div>
             
             
@@ -251,6 +253,29 @@
             
             
           
+            
+            
+            <!-- Trigger/Open The Modal -->
+<button id="myBtn"></button>
+
+<!-- The Modal -->
+<div id="myModal2" class="modal2">
+
+  <!-- Modal content -->
+  <div class="modal-content2">
+    <span class="close2">&times;</span>
+    <div  class="poppara"><h4>TierOne and Covid19</h4>
+                <p3 class="popsize">At TierOne we, like the rest of the world, are adapting to a new way of interacting. If you would like to talk to us you can schedule an online meeting. You can also keep up with us by signing up to our Newsletter. But most important of all we hope you stay safe. </p3>
+      <div class="pad20"></div>
+      <a class="popuplink size1" href="contact.html">Schedule a meeting</a><div class="pad20 show-when-med"><div class="pad10 show-when-med"></div> <span class="gap hide-when-med"></span><a class="popuplink size2" href="news.html">Newsletter</a>
+        </div>
+  </div>
+
+</div>
+            
+            </div>           
+            
+            
             
             
             
@@ -494,6 +519,33 @@
       
             
         </div>
+        
+        <script>
+        // Get the modal
+var modal = document.getElementById("myModal2");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}</script>
         
         
         <script>
