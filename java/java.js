@@ -34,7 +34,14 @@ function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
 
-
+const popup = document.querySelector('#myModal');
+function show() {
+  popup.classList.add('open');
+}
+popup.addEventListener('click', function(event) {
+  console.log('clicked....', event.target, popup);
+  event.target.isEqualNode(popup) && popup.classList.remove('open');
+});
 
 
 var slideIndex = 1;
