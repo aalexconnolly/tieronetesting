@@ -8,7 +8,7 @@
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: transparent; /* Fallback color */*/
+  background-color: none; /* Fallback color */*/
 }
 
 /* Modal Content/Box */
@@ -1010,6 +1010,7 @@ dot {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: white; 
+     z-index: 9;
 }
 .footerlink:hover{
    text-decoration: none;
@@ -1020,6 +1021,7 @@ dot {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #A6915C; 
+    z-index: 9;
 }
 .footerlink2:hover{
    text-decoration: none;
