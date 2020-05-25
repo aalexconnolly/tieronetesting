@@ -519,7 +519,15 @@
       
         
       <!--  </div>-->
-        
+        <script>
+        const popup = document.querySelector('#myModal');
+function show() {
+  popup.classList.add('open');
+}
+popup.addEventListener('click', function(event) {
+  console.log('clicked....', event.target, popup);
+  event.target.isEqualNode(popup) && popup.classList.remove('open');
+});</script>
         <script>
         // Get the modal
 var modal = document.getElementById("myModal2");

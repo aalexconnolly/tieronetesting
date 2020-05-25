@@ -41,7 +41,7 @@ function show() {
 popup.addEventListener('click', function(event) {
   console.log('clicked....', event.target, popup);
   event.target.isEqualNode(popup) && popup.classList.remove('open');
-});
+}); 
 
 
 var slideIndex = 1;
