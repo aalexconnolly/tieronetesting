@@ -99,6 +99,9 @@ body{
 .pad20{
     padding-top: 20px;
 }
+.bottompad30{
+    padding-top: 30px;
+}
 .pad10{
     padding-top: 10px;
 }
@@ -843,6 +846,7 @@ dot {
 .headshot{
     max-height: 340px;
     overflow: hidden;
+    padding-bottom: 30px;
 }
 
 .linkedin {
